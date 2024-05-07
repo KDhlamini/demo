@@ -346,7 +346,7 @@ h1{
     color: white;
 }
 .map{
-    background-image: url(/img/WhatsApp\ Image\ 2024-04-23\ at\ 10.17.39_26685a65.jpg);
+    background-image: url(img/WhatsApp\ Image\ 2024-04-23\ at\ 10.17.39_26685a65.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -517,6 +517,7 @@ i{
         overflow: hidden;
       }
     .banner{
+        overflow: hidden;
       height: 50vh;
       width: 377px;
 
@@ -552,6 +553,7 @@ i{
     /* font-size: 22px; */
     }
     .about{
+        overflow: hidden;
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -570,6 +572,7 @@ i{
      }
     }
     .service{
+        overflow: hidden;
         // padding: 50px
         display: flex;
       flex-direction: column;
@@ -597,6 +600,7 @@ i{
     
     }
     .webpage{
+        overflow: hidden;
         flex-direction: column;
         height: 5vh;
         width: 375px;
