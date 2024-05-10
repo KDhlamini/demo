@@ -411,7 +411,7 @@ i {
   width: 100%;
   text-align: center;
   margin-top: 188px;
-  margin-left: 430px;
+  margin-left: 572px;
 }
 
 .overlay a {
@@ -458,7 +458,7 @@ i {
   .banner .menu {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 7px;
   }
   .banner .overlay-content {
     display: flex;
@@ -484,7 +484,6 @@ i {
   .buttonn {
     width: 99px;
     height: 30px;
-    /* font-size: 22px; */
   }
   .about {
     overflow: hidden;
@@ -549,6 +548,7 @@ i {
     font-size: 16px;
   }
   .Portfolio {
+    overflow: hidden;
     justify-content: center;
     padding-bottom: 0px;
   }
@@ -593,6 +593,7 @@ i {
     margin-bottom: 20px;
   }
   .review {
+    overflow: hidden;
     padding: 35px;
     height: 25vh;
     width: 304px;
@@ -608,11 +609,13 @@ i {
     height: 29px;
   }
   .map {
+    overflow: hidden;
     height: 25vh;
     width: 375px;
   }
   .footer {
-    margin-top: 15px;
+    overflow: hidden;
+    margin-top: 21px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -624,12 +627,24 @@ i {
     margin-left: 30px;
     font-size: 20px;
   }
+  .footer .white {
+    font-size: 14px;
+    color: white;
+  }
+  .footer .black {
+    align-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(20, 125, 151);
+    border-radius: 50%;
+    text-align: center;
+  }
+  .footer p {
+    margin-left: -21px;
+    font-size: 13px;
+  }
   .socialmedia {
     margin-right: 45px;
-  }
-  .p {
-    margin-left: 3px;
-    font-size: 13px;
   }
 }
 @media only screen and (min-width: 578px) and (max-width: 768px) {
