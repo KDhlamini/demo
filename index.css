@@ -454,13 +454,13 @@ i {
     height: 50vh;
     width: 375px;
   }
-  .banner .h1 {
-    font-size: 48px;
+  .banner h1 {
+    font-size: 47px;
   }
   .banner .menu {
     position: absolute;
     top: 0;
-    right: 7px;
+    right: 9px;
   }
   .banner .overlay-content {
     display: flex;
