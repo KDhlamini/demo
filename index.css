@@ -454,6 +454,9 @@ i {
     height: 50vh;
     width: 375px;
   }
+  .banner .h1 {
+    font-size: 48px;
+  }
   .banner .menu {
     position: absolute;
     top: 0;
