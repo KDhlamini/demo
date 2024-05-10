@@ -453,7 +453,7 @@ i {
   .banner {
     overflow: hidden;
     height: 50vh;
-    width: 377px;
+    width: 372px;
   }
   .banner .menu {
     position: absolute;
@@ -553,12 +553,12 @@ i {
     padding-bottom: 0px;
   }
   .Portfolio .box2 {
-    height: 30vh;
+    height: 24vh;
     width: 140px;
     font-size: 13px;
   }
   .Portfolio .box3 {
-    height: 30vh;
+    height: 24vh;
     width: 140px;
     font-size: 13px;
   }
@@ -567,17 +567,17 @@ i {
     margin-left: 1px;
   }
   .Portfolio .box {
-    height: 30vh;
+    height: 24vh;
     width: 140px;
     font-size: 13px;
   }
   .Portfolio .box4 {
-    height: 30vh;
+    height: 24vh;
     width: 140px;
     font-size: 13px;
   }
   .Portfolio .pictures {
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
   }
