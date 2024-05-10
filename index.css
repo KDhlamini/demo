@@ -451,9 +451,8 @@ i {
     overflow: hidden;
   }
   .banner {
-    overflow: hidden;
     height: 50vh;
-    width: 372px;
+    width: 375px;
   }
   .banner .menu {
     position: absolute;
@@ -548,7 +547,6 @@ i {
     font-size: 16px;
   }
   .Portfolio {
-    overflow: hidden;
     justify-content: center;
     padding-bottom: 0px;
   }
@@ -593,7 +591,6 @@ i {
     margin-bottom: 20px;
   }
   .review {
-    overflow: hidden;
     padding: 35px;
     height: 25vh;
     width: 304px;
@@ -609,12 +606,10 @@ i {
     height: 29px;
   }
   .map {
-    overflow: hidden;
     height: 25vh;
     width: 375px;
   }
   .footer {
-    overflow: hidden;
     margin-top: 21px;
     margin-bottom: 10px;
     display: flex;
