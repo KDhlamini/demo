@@ -925,4 +925,94 @@ i {
     margin-left: 22px;
     margin-top: 15px;
   }
+}
+@media (min-width: 1399.98px) {
+  .banner {
+    background-image: url(img/bg-masthead.jpg);
+    background-position: left center;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner a {
+    width: 120px;
+    height: 40px;
+    color: white;
+    display: flex;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+  }
+  .banner .pp {
+    padding: 15px;
+    font-size: 17px;
+    color: black;
+  }
+  .banner h1 {
+    font-size: 50px;
+  }
+  .Portfolio {
+    padding-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+  }
+  .Portfolio .pp {
+    margin-bottom: 17px;
+    padding-top: 70px;
+    color: #e3b21b;
+    font-weight: bold;
+  }
+  .Portfolio h3.ptp {
+    margin-bottom: 15px;
+  }
+  .service {
+    background-color: #1d809f;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .service .topick {
+    color: #ecb807;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 54px;
+    margin-right: 2px;
+  }
+  .service h4 {
+    margin: 10px 0;
+  }
+  .service .topic2 {
+    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 2px;
+  }
+  .service .topp {
+    display: none;
+  }
+  .service .cont {
+    width: 680px;
+    margin-bottom: 18px;
+  }
+  .footer p {
+    margin-top: 19px;
+    font-size: 15px;
+  }
+  .about .hed {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=index.css.map */
