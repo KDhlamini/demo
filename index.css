@@ -608,12 +608,6 @@ i {
     font-size: 15px;
     margin-left: 3px;
   }
-  .review .buttons {
-    display: flex;
-    margin-right: 5px;
-    width: 172px;
-    height: 29px;
-  }
   .map {
     height: 25vh;
     width: 375px;
