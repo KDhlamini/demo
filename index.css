@@ -281,12 +281,17 @@ body {
   width: 120px;
   font-family: "Mycustomfont";
   font-family: bold;
+  padding: 8px;
+  text-decoration: none;
+  background-color: white;
 }
 .buttons .ba2 {
-  width: 120px;
+  padding: 8px;
+  background-color: #212329;
   margin-left: 20px;
   font-family: "Mycustomfont";
   font-weight: bold;
+  text-decoration: none;
 }
 
 .first {
@@ -932,7 +937,7 @@ i {
     background-position: left center;
     background-size: cover;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -972,6 +977,16 @@ i {
   .Portfolio h3.ptp {
     margin-bottom: 15px;
   }
+  .review {
+    background-color: #1d809f;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
   .service {
     background-color: #1d809f;
     padding: 5px;
@@ -990,6 +1005,16 @@ i {
     padding-top: 54px;
     margin-right: 2px;
   }
+  .service .topflex {
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+    padding: 0px 100px;
+    margin-bottom: 40px;
+  }
+  .service circle {
+    padding: 0px 20px;
+  }
   .service h4 {
     margin: 10px 0;
   }
@@ -999,6 +1024,9 @@ i {
     text-align: center;
     font-size: 30px;
     margin-right: 2px;
+  }
+  .service p {
+    width: 132px;
   }
   .service .topp {
     display: none;
@@ -1010,6 +1038,10 @@ i {
   .footer p {
     margin-top: 19px;
     font-size: 15px;
+  }
+  .about {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .about .hed {
     margin-bottom: 10px;

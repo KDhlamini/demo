@@ -320,12 +320,17 @@ h1{
         width: 120px;
         font-family: "Mycustomfont";
         font-family: bold;
+        padding: 8px;
+        text-decoration: none;
+        background-color: white;
     }
     .ba2{
-        width: 120px;
+        padding: 8px;
+        background-color: #212329;
         margin-left: 20px;
         font-family: "Mycustomfont";
         font-weight: bold;
+        text-decoration: none;
     }
 }
 .first{
@@ -1046,7 +1051,7 @@ i{
             background-position: left center;
             background-size: cover;
             width: 100%;
-            height: 75vh;
+            height: 90vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1095,6 +1100,16 @@ i{
                 margin-bottom: 15px;
             }
         }
+        .review{
+            background-color: #1d809f;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
         .service{
 
             background-color: #1d809f;
@@ -1116,6 +1131,16 @@ i{
                 
             
             }
+            .topflex {
+                text-align: center;
+                margin-top: 30px;
+                width: 250px;
+                padding: 0px 100px;
+                margin-bottom: 40px;
+            }
+            circle{
+                padding: 0px 20px;
+            }
             h4{
                 margin: 10px 0;
             }
@@ -1127,6 +1152,9 @@ i{
                 margin-right: 2px;
             
                  
+            }
+            p{
+                width: 132px;
             } 
             .topp{
                 display: none;
@@ -1142,10 +1170,14 @@ i{
             font-size: 15px;
         }
         .about{
+                padding-top: 5%;
+                padding-bottom: 5%;
             .hed {
                 margin-bottom: 10px;
                 font-size: 25px;
+                
             }
+       
         }
 
     }
