@@ -437,7 +437,7 @@ i{
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -459,7 +459,7 @@ i{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
   }
@@ -603,12 +603,11 @@ i{
         }
         .buttonn{
            width: 120px; 
-           height: 36px;
+           padding: 5px;
            font-size: 15px;
         }
     }
        .Portfolio{
-        // overflow: hidden;
         justify-content: center;
         padding-bottom: 0px;
         .box2{
@@ -665,22 +664,17 @@ i{
         font-size: 15px;
         margin-left: 3px;
        }
-    //    .buttons{
-    //     display: flex;
-    //     margin-right: 5px;
-    //     // width: 172px;
-    //     // height: 29px;
-    //    }
+    
     }
 
        .map{
-        // overflow: hidden;
+        overflow: hidden;
         height: 25vh;
         width: 375px;
         
        }
        .footer{
-        // overflow: hidden;
+        overflow: hidden;
         margin-top: 21px;
         margin-bottom: 10px;
         display: flex;
@@ -711,7 +705,7 @@ i{
     }
        .socialmedia{
         margin-right: 45px;
-        // margin-top: 30px;
+        
 
        }
        
@@ -733,6 +727,26 @@ i{
             .buttonn{
                 margin-top: 74px;
             }
+            .overlay-content {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                flex-direction: column;
+                position: center;
+                top: 25%;
+                width: 100%;
+                text-align: center;
+                margin-top: 296px;
+                margin-left: 230px;
+            }
+            .overlay a {
+                padding: 31px;
+                text-decoration: none;
+                font-size: 68px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+            }
         }
 
         .about{
@@ -744,10 +758,18 @@ i{
             flex-direction: column; 
             justify-content: center;
             align-items: center;
+
+            .hed{
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
         }
         .service{
 
-            background-color: #1c2cb4;
+            background-color: #1d809f;
             padding: 5px;
             display: flex;
             flex-direction: column;
@@ -798,28 +820,28 @@ i{
            
         }
         .Portfolio {
-            padding-bottom: 530px;
+            padding-bottom: 422px;
             display: flex;
             flex-direction: column;
             align-items: center;
   
             .box{
                 
-                height: 40vh;
+                height: 35vh;
                 width: 310px;
             }
             .box2{
-                height: 40vh;
+                height: 35vh;
                 width: 310px;
 
             }
             .box3{
                 
-                height: 40vh;
+                height: 35vh;
                 width: 310px;
             }
             .box4{
-                height: 40vh;
+                height: 35vh;
                 width: 310px;
             }     
             .pp {
@@ -831,13 +853,14 @@ i{
             } 
             .ptp{
                 margin-bottom: 20px;
+                margin-top: 10px;
             }  
             
         }
 
        
         .review{
-            background-color: #1c2cb4;
+            background-color: #1d809f;
             padding-top: 100px;
             padding-bottom: 50px;
             display: flex;
@@ -856,7 +879,7 @@ i{
         }
         .footer{
 
-            margin-top: 70px;
+            margin-top: 30px;
             margin-bottom: 10px;
             display: flex;
             flex-direction: row;
@@ -870,7 +893,9 @@ i{
                 margin-right: 30px;
             }
             p{
-            margin-left:22px ;    
+            margin-left:-15px ;  
+            margin-top: 15px;  
+            margin-bottom: 30px;
             }
         }
         
@@ -895,6 +920,27 @@ i{
                 .buttonn{
                     margin-top: 74px;
                 }
+                .overlay-content {
+                    display: flex;
+                    justify-content: center;
+                    align-self: center;
+                    flex-direction: column;
+                    position: center;
+                    top: 25%;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 420px;
+                    margin-left: 315px;
+                }
+                
+.overlay a {
+    padding: 41px;
+    text-decoration: none;
+    font-size: 85px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
             }
     
             .about{
@@ -909,7 +955,7 @@ i{
             }
             .service{
     
-                background-color: #1c2cb4;
+                background-color: #1d809f;
                 padding: 40px;
                 display: flex;
                 flex-direction: column;
@@ -966,21 +1012,21 @@ i{
       
                 .box{
                     
-                    height: 40vh;
+                    height: 35vh;
                     width: 360px;
                 }
                 .box2{
-                    height: 40vh;
+                    height: 35vh;
                     width: 360px;
     
                 }
                 .box3{
                     
-                    height: 40vh;
+                    height: 35vh;
                     width: 360px;
                 }
                 .box4{
-                    height: 40vh;
+                    height: 35vh;
                     width: 360px;
                 }     
                 .pp {
@@ -999,7 +1045,7 @@ i{
     
            
             .review{
-                background-color: #1c2cb4;
+                background-color: #1d809f;
                 padding-top: 200px;
                 padding-bottom: 120px;
                 display: flex;
@@ -1023,7 +1069,7 @@ i{
             .footer{
     
                 margin-top: 40px;
-                margin-bottom: 500px;
+                // margin-bottom: 500px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -1036,8 +1082,8 @@ i{
                     margin-right: 30px;
                 }
                 p{
-                margin-left:22px ;  
-                margin-top: 15px;  
+                margin-left:3px ;  
+                margin-top: 27px;  
                 }
             
 
@@ -1059,15 +1105,31 @@ i{
             
         
         a{
+           
             width: $buttonwidht;
             height: $buttonheight;
-            // background-color: #1d809f;
             color: white;
             display: flex;
             border-radius: 3px;
             text-decoration: none;
             text-align: center;
             justify-content: center;
+        }
+        .overlay-a{
+           padding: 15px;
+            font-size: 57px;  
+        }
+        .overlay-content {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-direction: column;
+            position: center;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 291px;
+            margin-left: 607px;
         }
         
         

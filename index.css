@@ -401,7 +401,7 @@ i {
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -423,7 +423,7 @@ i {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -552,7 +552,7 @@ i {
   }
   .webpage .buttonn {
     width: 120px;
-    height: 36px;
+    padding: 5px;
     font-size: 15px;
   }
   .Portfolio {
@@ -609,10 +609,12 @@ i {
     margin-left: 3px;
   }
   .map {
+    overflow: hidden;
     height: 25vh;
     width: 375px;
   }
   .footer {
+    overflow: hidden;
     margin-top: 21px;
     margin-bottom: 10px;
     display: flex;
@@ -661,6 +663,26 @@ i {
   .banner .buttonn {
     margin-top: 74px;
   }
+  .banner .overlay-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    position: center;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 296px;
+    margin-left: 230px;
+  }
+  .banner .overlay a {
+    padding: 31px;
+    text-decoration: none;
+    font-size: 68px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
   .about {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -670,8 +692,15 @@ i {
     justify-content: center;
     align-items: center;
   }
+  .about .hed {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .about p {
+    font-size: 14px;
+  }
   .service {
-    background-color: #1c2cb4;
+    background-color: #1d809f;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -715,25 +744,25 @@ i {
     align-items: center;
   }
   .Portfolio {
-    padding-bottom: 530px;
+    padding-bottom: 422px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .Portfolio .box {
-    height: 40vh;
+    height: 35vh;
     width: 310px;
   }
   .Portfolio .box2 {
-    height: 40vh;
+    height: 35vh;
     width: 310px;
   }
   .Portfolio .box3 {
-    height: 40vh;
+    height: 35vh;
     width: 310px;
   }
   .Portfolio .box4 {
-    height: 40vh;
+    height: 35vh;
     width: 310px;
   }
   .Portfolio .pp {
@@ -745,9 +774,10 @@ i {
   }
   .Portfolio .ptp {
     margin-bottom: 20px;
+    margin-top: 10px;
   }
   .review {
-    background-color: #1c2cb4;
+    background-color: #1d809f;
     padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
@@ -765,7 +795,7 @@ i {
     height: 35vh;
   }
   .footer {
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -780,7 +810,9 @@ i {
     margin-right: 30px;
   }
   .footer p {
-    margin-left: 22px;
+    margin-left: -15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -799,6 +831,26 @@ i {
   .banner .buttonn {
     margin-top: 74px;
   }
+  .banner .overlay-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    position: center;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 420px;
+    margin-left: 315px;
+  }
+  .banner .overlay a {
+    padding: 41px;
+    text-decoration: none;
+    font-size: 85px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
   .about {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -809,7 +861,7 @@ i {
     align-items: center;
   }
   .service {
-    background-color: #1c2cb4;
+    background-color: #1d809f;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -858,19 +910,19 @@ i {
     align-items: center;
   }
   .Portfolio .box {
-    height: 40vh;
+    height: 35vh;
     width: 360px;
   }
   .Portfolio .box2 {
-    height: 40vh;
+    height: 35vh;
     width: 360px;
   }
   .Portfolio .box3 {
-    height: 40vh;
+    height: 35vh;
     width: 360px;
   }
   .Portfolio .box4 {
-    height: 40vh;
+    height: 35vh;
     width: 360px;
   }
   .Portfolio .pp {
@@ -885,7 +937,7 @@ i {
     font-size: 30px;
   }
   .review {
-    background-color: #1c2cb4;
+    background-color: #1d809f;
     padding-top: 200px;
     padding-bottom: 120px;
     display: flex;
@@ -907,7 +959,6 @@ i {
   }
   .footer {
     margin-top: 40px;
-    margin-bottom: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -921,8 +972,8 @@ i {
     margin-right: 30px;
   }
   .footer p {
-    margin-left: 22px;
-    margin-top: 15px;
+    margin-left: 3px;
+    margin-top: 27px;
   }
 }
 @media (min-width: 1399.98px) {
@@ -946,6 +997,22 @@ i {
     text-decoration: none;
     text-align: center;
     justify-content: center;
+  }
+  .banner .overlay-a {
+    padding: 15px;
+    font-size: 57px;
+  }
+  .banner .overlay-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    position: center;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 291px;
+    margin-left: 607px;
   }
   .banner .pp {
     padding: 15px;
